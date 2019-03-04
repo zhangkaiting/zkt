@@ -35,11 +35,11 @@ module.exports = {
 		new webpack.HotModuleReplacementPlugin(),
 		// new CleanWebpackPlugin('./dist'),
 		new htmlWebpackPlugin({
-			title:"vue",
+			// title:"vue",
 			template:'./src/index.html',
 			minify:{
-				removeAttributeQuotes:true,  //去除双引号
-        collapseWhitespace:true  //去除空格  代码一行显示
+				// removeAttributeQuotes:true,  //去除双引号
+        // collapseWhitespace:true  //去除空格  代码一行显示
 			}
 			
 		})
